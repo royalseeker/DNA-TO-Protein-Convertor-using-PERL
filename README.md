@@ -11,3 +11,5 @@ The DNA Sequence input is taken which is stored in ($dna) the DNA sequence is th
 The RNA sequence is then sent to the sub routine (dna2pep) which divides it. Follow by the next sub routine (codon2) the protein is then saved into $peptide and printed. The matching of Electrically Charged, Polar Uncharged and Special Case Amino Acids takes place in the foreach statement which displays the protein
 The regular expression transliterate is used to get the numbers  of Electrically charged, Polar Uncharged and Special case from Amnio Acids ($protein).
 The Percentage is Found using  total 100 * (EC,PU,SC values)/(length($protein)).
+
+Run USing Perl
